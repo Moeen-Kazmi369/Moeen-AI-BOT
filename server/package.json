@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^4.2.1",
+    "annyang": "^2.6.1",
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "google-translate-api": "^2.3.0",
+    "node": "^19.6.1",
+    "openai": "^3.2.1",
+    "p-limit": "^4.0.0",
+    "p-queue": "^7.3.4",
+    "responsivevoice": "^0.4.1",
+    "say": "^0.16.0",
+    "text-to-speech-js": "^1.1.10"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

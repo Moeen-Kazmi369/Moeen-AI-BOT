@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  /* border: 2px solid red; */
+}
+.flex h1{
+  font-size: 5rem;
+  font-weight: bold;
+  color: black;
+}
+.input{
+  width: 60vw;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 8px;
+  /* margin-left: 2rem; */
+}
+.btn{
+  background-color: black;
+  color: white;
+  margin-left: 1rem;
+  padding: 10px;
+  border-radius: 8px;
+}
+.form{
+  margin-bottom: 5px;
+  padding-left: 3rem;
+}
+.chat-log{
+  /* border: 2px solid red; */
+  width: 60vw;
+  height: auto;
+  padding: 4px;
+}
+.chat-log .Hp{
+  background-color: gray;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.AIp{
+  background-color: rgb(163, 187, 231);
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+@media (max-width:600px) {
+  .flex h1{
+    font-size: 3rem;
+    font-weight:600;
+    text-align: center;
+  }
+  .flex{
+    height: 100vh;
+    width: auto;
+  }
+  .AIp{
+    width: auto;
+    height: auto;
+  }
+  .Hp{
+    width: auto;
+    height: auto;
+  }
+  .chat-log{
+    width: auto;
+    height: auto;
+  }
+}
